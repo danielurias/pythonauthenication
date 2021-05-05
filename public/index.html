@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="userView" class="animation-area">
+            <label>Welcome! Login or Create New Account</label>
+            <div id='register'>
+                <input type='text' id='first-name' placeholder="First Name">         
+                <input type='text' id='last-name' placeholder="Last Name">             
+                <input type='text' id='email' placeholder="Email">               
+                <input type='text' id='password' placeholder="Password">
+                <div id="register-button">Register</div>
+            </div>
+            <div id='register'>             
+                <input type='text' id='username' placeholder="Username">             
+                <input type='password' id='passw' placeholder="Password">
+                <div id='login-button'>Login</div>
+            </div>
+        </div>
+
+        <div id="dash" class="animation-area hidden">
+            <ul class="box-area">
+            <h1>Choose Your Fighter!</h1>
+        <img src="fighters.jpg" alt="Smash Fighters" class="center">
+        <input type="text" id="fighter-name" placeholder="Name">
+        <input type="text" id="fighter-color" placeholder="Color">
+        <input type="text" id="fighter-style" placeholder="Style">
+        <input type="text" id="fighter-stock" placeholder="Stock">
+        <input type="text" id="fighter-hp" placeholder="HP">
+        <button id="add-button">Add</button>
+        <button id="update-button">Update</button>
+        <div class="container">
+            <ol id="fighters-list"></ol>
+        </div>
+        <script src="app.js"></script>
+        </ul>
+        </div>
+    </body>
+</html>

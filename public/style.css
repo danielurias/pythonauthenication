@@ -1,0 +1,165 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#register {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#login-button {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    height: 25px;
+    width: 70px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#register-button {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    height: 25px;
+    width: 70px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+body {
+    background-color: black;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 1400px;
+    max-height: auto;
+    min-width: 500px;
+    min-height: auto;
+}
+
+ol {
+    color: white;
+    font-size: 20px;
+    list-style-type:none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 300px;
+    height: auto;
+    border: 3px solid white;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+#fighter-name {
+    height: 30px;
+    width: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#fighter-color {
+    height: 30px;
+    width: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+#fighter-style {
+    height: 30px;
+    width: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+#fighter-stock {
+    height: 30px;
+    width: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+#fighter-hp {
+    height: 30px;
+    width: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    height: 25px;
+    width: 70px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#fighter-list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+
+}
+
+.name, .color {
+    display: inline;
+    padding: 0px 5px;
+}
+
+
+.animation-area{
+    background: linear-gradient(to left, #8942a8, #ba382f);
+    width: 100%;
+    height: 200vh;
+}
+
+
