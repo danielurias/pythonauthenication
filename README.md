@@ -8,6 +8,8 @@ as the server language and mysql for the database.
 
 ![](public/screen.png)
 
+![](public/screen2.png)
+
 ## Resource
 
 **Fighter**
