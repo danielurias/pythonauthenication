@@ -6,8 +6,8 @@ This project was inspired by super smash brothers and I implemented a user creat
 with authentication and authorization. The bcrypt library was used along with cookies using python 
 as the server language and mysql for the database.
 
-![](public/screen.png)
 ![](public/screen2.png)
+![](public/screen.png)
 
 ## Resource
 
