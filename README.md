@@ -7,7 +7,6 @@ with authentication and authorization. The bcrypt library was used along with co
 as the server language and mysql for the database.
 
 ![](public/screen.png)
-
 ![](public/screen2.png)
 
 ## Resource
